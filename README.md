@@ -8,7 +8,7 @@ Collect every lantern and reach the exit across three maps. Three collisions end
 
 Open this folder in Android Studio. Let Gradle sync, select the app run configuration, and choose an Android phone or emulator at API 26 or newer. The build uses Android Gradle Plugin 9.4.0, Gradle 9.6.0, built-in Kotlin support, and SDK 35. Use the Android Studio Gradle JDK. The first sync may download build dependencies.
 
-Run with the green Run button, or use `./gradlew assembleDebug` (`gradlew.bat assembleDebug` on Windows). The included `deliverables/LanternTrail-debug.apk` is a local debug build, not a Play Store release.
+Run with the green Run button, or use `sh gradlew assembleDebug` (`gradlew.bat assembleDebug` on Windows). The included `deliverables/LanternTrail-debug.apk` is a local debug build, not a Play Store release.
 
 ## Rules
 
@@ -27,4 +27,4 @@ Enter `firefly` as the name for a hidden practice guide. It displays safe route 
 - Ui.kt: shared styling, toolbar and system-bar insets.
 - checks/TrailGameChecks.kt: standalone game-rule checks.
 
-Review TESTING.md before submission. Canvas requires a repository link pointing to the exact branch to be graded, and says commits after submission will not be considered. Nothing has been submitted to Canvas or uploaded to GitHub.
+Review TESTING.md before submission. Canvas requires a repository link pointing to the exact branch to be graded, and says commits after submission will not be considered. Repository: https://github.com/Vishwadarji/LanternTrail/tree/main. The project has been uploaded to GitHub; nothing has been submitted to Canvas.
